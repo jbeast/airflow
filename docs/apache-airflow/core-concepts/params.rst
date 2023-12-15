@@ -25,7 +25,7 @@ code and supply additional Params, or overwrite Param values, at runtime when yo
 :class:`~airflow.models.param.Param` values are validated with JSON Schema. For scheduled DAG runs,
 default :class:`~airflow.models.param.Param` values are used.
 
-Also defined Params are used to render a nice UI when triggering manually.
+Defined Params are also used to render a nice UI when triggering manually.
 When you trigger a DAG manually, you can modify its Params before the dagrun starts.
 If the user-supplied values don't pass validation, Airflow shows a warning instead of creating the dagrun.
 
